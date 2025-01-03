@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ToggleButton = () => {
+const ToggleButton = ({setOpen}) => {
     return (
-        <div>
-           Toggle btn
-        </div>
+        <button onClick={()=>setOpen((prev)=>!prev)}>
+            Button
+        </button>
     );
 };
 
