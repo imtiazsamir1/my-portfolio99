@@ -8,7 +8,7 @@ const App = () => {
   return <div>
    <section id="Homepage"><Navber></Navber>
    <Hero/></section>
-    <section id="Service"><Parallax type="services"/></section>
+    <section id="Services"><Parallax type="services"/></section>
     <section id="Portfolio">Services</section>
     <section ><Parallax type="portfolio"/></section>
     <section>Protfolio1</section>
