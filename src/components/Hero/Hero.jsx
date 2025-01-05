@@ -1,7 +1,25 @@
 import React from 'react';
 import "./hero.scss";
 import {motion} from "framer-motion"
+const sliderVariants={
+    initial:{
+        x: 0,
+       
 
+    },
+    animate :{
+        x: "-220%",
+       
+        transition:{
+            repeat:Infinity,
+            repeatType:"mirror",
+            duration:20,
+            
+        }
+
+    },
+   
+};
 const textVariants={
     initial:{
         x: -500,
@@ -43,7 +61,7 @@ const Hero = () => {
 
             </motion.div>
             </div>
-            <div className='slidingTextContainer'>Writer Contant Creator Influencer</div>
+            <motion.div className='slidingTextContainer' variants={sliderVariants} initial="initial" animate="animate">Writer Contant Creator Influencer</motion.div>
             <div className='imageContainer'>
             <img src="/samiru.png" alt="" />
             </div>
