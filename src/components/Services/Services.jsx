@@ -20,21 +20,21 @@ const Services = () => {
                 </div>
             </motion.div>
             <motion.div className="listContainer">
-                <div className="box">
+                <motion.div className="box">
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quis nam saepe architecto voluptatem itaque voluptatum quisquam ducimus in.</p>
                     <button>GO</button>
-                </div>
-                <div className="box">
+                </motion.div>
+                <motion.div className="box">
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quis nam saepe architecto voluptatem itaque voluptatum quisquam ducimus in.</p>
                     <button>GO</button>
-                </div>
-                <div className="box">
+                </motion.div>
+                <motion.div className="box">
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quis nam saepe architecto voluptatem itaque voluptatum quisquam ducimus in.</p>
                     <button>GO</button>
-                </div>
+                </motion.div>
                 <div className="box">
                     <h2>Branding</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quis nam saepe architecto voluptatem itaque voluptatum quisquam ducimus in.</p>
